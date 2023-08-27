@@ -1,2 +1,2 @@
 # Figma-To-React-Vite-Project
-(Source video) [https://www.youtube.com/watch?v=9cIDs7VGmSs&list=RDCMUCqXs3o7aLdnJfXEN3OVgafw&index=7]
+[Link text Here](https://link-url-here.org)
