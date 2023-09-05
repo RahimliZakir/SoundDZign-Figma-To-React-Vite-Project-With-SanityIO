@@ -11,6 +11,9 @@ export default {
         yellow: "#ffca28",
         white: "#ffffff",
       },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],

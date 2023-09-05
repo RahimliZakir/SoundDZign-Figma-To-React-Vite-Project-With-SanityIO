@@ -1,0 +1,85 @@
+/*
+* Inter
+*/
+@font-face {
+  font-family: "Inter";
+  src: url(./assets/fonts/Inter/static/Inter-Light.ttf) format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./assets/fonts/Inter/static/Inter-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./assets/fonts/Inter/static/Inter-Medium.ttf) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./assets/fonts/Inter/static/Inter-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./assets/fonts/Inter/static/Inter-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./assets/fonts/Inter/static/Inter-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+}
+/*
+  * Inter
+*/
+
+/*
+  * Alegreya
+*/
+@font-face {
+  font-family: "Alegreya";
+  src: url(./assets/fonts/Alegreya/static/Alegreya-Regular.ttf)
+    format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Alegreya";
+  src: url(./assets/fonts/Alegreya/static/Alegreya-Medium.ttf)
+    format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Alegreya";
+  src: url(./assets/fonts/Alegreya/static/Alegreya-SemiBold.ttf)
+    format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./assets/fonts/Alegreya/static/Alegreya-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Alegreya";
+  src: url(./assets/fonts/Alegreya/static/Alegreya-ExtraBold.ttf)
+    format("truetype");
+  font-weight: 800;
+}
+/*
+  * Alegreya
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

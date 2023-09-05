@@ -7,7 +7,7 @@ const Header = () => {
       style={{ "--header-banner": `url(${HeaderBanner})` }}
       className={`bg-[image:var(--header-banner)]`}
     >
-      <div className="container"></div>
+      <div className="container relative h-screen w-[1280px]"></div>
     </section>
   );
 };
