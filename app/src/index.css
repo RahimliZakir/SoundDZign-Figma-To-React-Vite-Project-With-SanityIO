@@ -83,3 +83,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+  @apply px-36;
+}
