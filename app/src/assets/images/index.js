@@ -12,6 +12,12 @@ import Mastering from "./topics/mastering.png";
 import YellowBorder from "./topics/yellow-border.svg";
 //* Topics
 
+//* Info
+import RedBorder from "./info/red-border.svg";
+import Student from "./info/student.svg";
+import VideoFile from "./info/video-file.svg";
+//* Info
+
 export {
   HeaderBanner,
   Frequiences,
@@ -21,4 +27,7 @@ export {
   MixingConsole,
   Mastering,
   YellowBorder,
+  RedBorder,
+  Student,
+  VideoFile,
 };

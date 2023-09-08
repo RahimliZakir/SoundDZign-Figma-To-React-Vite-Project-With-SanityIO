@@ -18,7 +18,7 @@ const Topics = () => {
       <h2 className="font-inter relative text-white text-[40px] font-black after:content-[''] after:bg-red after:inline-block after:absolute after:w-[80px] after:h-[4px] after:left-0 after:bottom-[-2.5px]">
         What will you learn?
       </h2>
-      <div className="relative flex justify-between items-center mt-[40px] after:absolute after:inline-block after:w-[90px] after">
+      <div className="relative flex flex-wrap justify-between items-center mt-[40px] after:absolute after:inline-block after:w-[90px] after">
         <div className="w-1/2">
           <ul className="text-white font-alegreya text-[20px] ml-[25px]">
             <li className="topics-li mb-[25px]">
