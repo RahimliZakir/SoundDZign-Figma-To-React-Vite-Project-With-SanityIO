@@ -13,6 +13,7 @@ export default {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        alegreya: ["Alegreya", "sans-serif"],
       },
     },
   },
