@@ -1,5 +1,6 @@
-import Header from "./components/Header";
 import Nav from "./components/Nav";
+import Header from "./components/Header";
+import Topics from "./components/Topics";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       </header>
       <main>
         <Header />
+        <Topics />
       </main>
     </>
   );

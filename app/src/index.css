@@ -87,3 +87,7 @@
 .container {
   @apply px-36;
 }
+
+.topics-li {
+  @apply relative before:content-[''] before:inline-block before:absolute before:bg-red before:w-[8px] before:h-[8px] before:rounded-full before:top-1/2 before:left-[-25px] before:translate-y-[-50%];
+}
