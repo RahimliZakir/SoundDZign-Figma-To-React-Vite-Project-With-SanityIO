@@ -18,6 +18,12 @@ import Student from "./info/student.svg";
 import VideoFile from "./info/video-file.svg";
 //* Info
 
+//* Blog
+import DawBlog from "./blog/daw-blog.png";
+import GuitarBlog from "./blog/guitar-blog.png";
+import GroupBlog from "./blog/group-blog.png";
+//* Blog
+
 export {
   HeaderBanner,
   Frequiences,
@@ -30,4 +36,7 @@ export {
   RedBorder,
   Student,
   VideoFile,
+  DawBlog,
+  GuitarBlog,
+  GroupBlog,
 };
