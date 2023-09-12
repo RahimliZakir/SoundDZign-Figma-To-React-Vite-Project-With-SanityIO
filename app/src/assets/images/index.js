@@ -1,6 +1,6 @@
-//* Header
-import HeaderBanner from "./header/Rectangle8.png";
-//* Header
+//* Intro
+import HeaderBanner from "./intro/Rectangle8.png";
+//* Intro
 
 //* Topics
 import Frequiences from "./topics/frequencies.png";
@@ -24,6 +24,12 @@ import GuitarBlog from "./blog/guitar-blog.png";
 import GroupBlog from "./blog/group-blog.png";
 //* Blog
 
+//* Testimonials
+import TestimonialFirst from "./testimonials/testimonial-first.png";
+import TestimonialSecond from "./testimonials/testimonial-second.png";
+import TestimonialThird from "./testimonials/testimonial-third.png";
+//* Testimonials
+
 export {
   HeaderBanner,
   Frequiences,
@@ -39,4 +45,7 @@ export {
   DawBlog,
   GuitarBlog,
   GroupBlog,
+  TestimonialFirst,
+  TestimonialSecond,
+  TestimonialThird,
 };

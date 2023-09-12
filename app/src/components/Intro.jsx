@@ -1,6 +1,6 @@
 import { HeaderBanner } from "../assets/images";
 
-const Header = () => {
+const Intro = () => {
   return (
     <section
       id="header"
@@ -24,4 +24,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Intro;

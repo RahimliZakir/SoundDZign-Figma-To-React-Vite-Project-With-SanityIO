@@ -1,8 +1,10 @@
 import Nav from "./components/Nav";
-import Header from "./components/Header";
+import Intro from "./components/Intro";
 import Topics from "./components/Topics";
 import Info from "./components/Info";
 import Blog from "./components/Blog";
+import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -11,11 +13,15 @@ const App = () => {
         <Nav />
       </header>
       <main>
-        <Header />
+        <Intro />
         <Topics />
         <Info />
         <Blog />
+        <Testimonials />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
