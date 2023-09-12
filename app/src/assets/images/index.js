@@ -30,6 +30,12 @@ import TestimonialSecond from "./testimonials/testimonial-second.png";
 import TestimonialThird from "./testimonials/testimonial-third.png";
 //* Testimonials
 
+//* Footer
+import FacebookIcon from "./footer/fb-icon.svg";
+import TwitterIcon from "./footer/twitter-icon.svg";
+import InstagramIcon from "./footer/insta-icon.svg";
+//* Footer
+
 export {
   HeaderBanner,
   Frequiences,
@@ -48,4 +54,7 @@ export {
   TestimonialFirst,
   TestimonialSecond,
   TestimonialThird,
+  FacebookIcon,
+  TwitterIcon,
+  InstagramIcon,
 };
