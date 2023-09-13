@@ -14,16 +14,16 @@ const Nav = () => {
               className="flex justify-between text-white font-extrabold font-inter"
             >
               <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#">Course Details</a>
+                <a href="#course-details">Course Details</a>
               </li>
               <li>
-                <a href="#">Blog</a>
+                <a href="#blog">Blog</a>
               </li>
               <li>
-                <a href="#">Testimonials</a>
+                <a href="#testimonials">Testimonials</a>
               </li>
             </ul>
           </div>
