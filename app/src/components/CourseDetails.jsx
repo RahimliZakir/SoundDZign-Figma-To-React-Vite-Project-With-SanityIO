@@ -1,8 +1,8 @@
 import { RedBorder, Student, VideoFile } from "../assets/images";
 
-const Info = () => {
+const CourseDetails = () => {
   return (
-    <section id="info" className="bg-darkBlack py-[80px]">
+    <section id="course-details" className="bg-darkBlack py-[80px]">
       <div className="container">
         <div className="relative flex">
           <img
@@ -27,4 +27,4 @@ const Info = () => {
   );
 };
 
-export default Info;
+export default CourseDetails;

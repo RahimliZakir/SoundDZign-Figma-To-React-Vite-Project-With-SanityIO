@@ -2,21 +2,21 @@
 import HeaderBanner from "./intro/Rectangle8.png";
 //* Intro
 
-//* Topics
-import Frequiences from "./topics/frequencies.png";
-import UsingDaw from "./topics/using-daw.png";
-import Vocals from "./topics/vocals.png";
-import Mixing from "./topics/mixing.png";
-import MixingConsole from "./topics/mixing-console.png";
-import Mastering from "./topics/mastering.png";
-import YellowBorder from "./topics/yellow-border.svg";
-//* Topics
+//* About
+import Frequiences from "./about/frequencies.png";
+import UsingDaw from "./about/using-daw.png";
+import Vocals from "./about/vocals.png";
+import Mixing from "./about/mixing.png";
+import MixingConsole from "./about/mixing-console.png";
+import Mastering from "./about/mastering.png";
+import YellowBorder from "./about/yellow-border.svg";
+//* About
 
-//* Info
-import RedBorder from "./info/red-border.svg";
-import Student from "./info/student.svg";
-import VideoFile from "./info/video-file.svg";
-//* Info
+//* Course Details
+import RedBorder from "./course-details/red-border.svg";
+import Student from "./course-details/student.svg";
+import VideoFile from "./course-details/video-file.svg";
+//* Course Details
 
 //* Blog
 import DawBlog from "./blog/daw-blog.png";

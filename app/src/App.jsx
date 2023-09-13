@@ -1,7 +1,7 @@
 import Nav from "./components/Nav";
 import Intro from "./components/Intro";
-import Topics from "./components/Topics";
-import Info from "./components/Info";
+import About from "./components/About";
+import CourseDetails from "./components/CourseDetails";
 import Blog from "./components/Blog";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
@@ -14,8 +14,8 @@ const App = () => {
       </header>
       <main>
         <Intro />
-        <Topics />
-        <Info />
+        <About />
+        <CourseDetails />
         <Blog />
         <Testimonials />
       </main>

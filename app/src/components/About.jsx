@@ -10,11 +10,11 @@ import {
   YellowBorder,
 } from "../assets/images";
 
-const Topics = () => {
+const About = () => {
   const [topicImage, setTopicImage] = useState(UsingDaw);
 
   return (
-    <section id="topics" className="bg-black py-[80px]">
+    <section id="about" className="bg-black py-[80px]">
       <div className="container">
         <h2 className="font-inter relative text-white text-[40px] font-black after:content-[''] after:bg-red after:inline-block after:absolute after:w-[80px] after:h-[4px] after:left-0 after:bottom-[-2.5px]">
           What will you learn?
@@ -91,4 +91,4 @@ const Topics = () => {
   );
 };
 
-export default Topics;
+export default About;
