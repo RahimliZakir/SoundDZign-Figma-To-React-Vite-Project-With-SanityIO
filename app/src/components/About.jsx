@@ -74,7 +74,7 @@ const About = () => {
           </div>
           <div className="w-1/2">
             <img
-              className="xl:w-[560px] lg:w-[560px] md:w-[390px] h-[290px] object-cover"
+              className="xl:w-[560px] lg:w-[560px] md:w-[390px] h-[290px] hidden xl:inline-block lg:inline-block md:inline-block object-cover"
               src={topicImage}
               alt="Topic Image"
             />
