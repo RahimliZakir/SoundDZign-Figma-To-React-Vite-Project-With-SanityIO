@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <footer className="py-[50px] bg-black">
       <div className="container">
-        <div className="flex justify-between">
-          <div>
+        <div className="flex flex-col xl:flex-row lg:flex-row md:flex-row justify-start xl:justify-between lg:justify-between md:justify-between">
+          <div className="mb-[40px] xl:mb-0 lg:mb-0 md:mb-0">
             <h4 className="font-inter text-white font-extrabold">
               Soun<span className="text-red">DZign</span>
             </h4>
@@ -21,7 +21,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div>
+          <div className="mb-[40px] xl:mb-0 lg:mb-0 md:mb-0">
             <h4 className="font-alegreya text-pink text-[18px] font-bold">
               Quick Links
             </h4>
@@ -34,7 +34,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="mb-[40px] xl:mb-0 lg:mb-0 md:mb-0">
             <h4 className="font-alegreya text-pink text-[18px] font-bold">
               Contact Us
             </h4>

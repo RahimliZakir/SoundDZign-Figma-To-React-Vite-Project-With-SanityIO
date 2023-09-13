@@ -16,12 +16,12 @@ const About = () => {
   return (
     <section id="about" className="bg-black py-[80px]">
       <div className="container">
-        <h2 className="font-inter relative text-white text-[40px] font-black after:content-[''] after:bg-red after:inline-block after:absolute after:w-[80px] after:h-[4px] after:left-0 after:bottom-[-2.5px]">
+        <h2 className="font-inter relative text-white text-[24px] xl:text-[40px] lg:text-[40px] md:text-[40px] font-black after:content-[''] after:bg-red after:inline-block after:absolute after:w-[50px] xl:after:w-[80px] lg:after:w-[80px] md:after:w-[80px] after:h-[4px] after:left-0 after:bottom-[-2.5px]">
           What will you learn?
         </h2>
-        <div className="relative flex flex-wrap justify-between items-center mt-[40px] after:absolute after:inline-block after:w-[90px] after">
-          <div className="w-1/2">
-            <ul className="text-white font-alegreya text-[20px] ml-[25px]">
+        <div className="relative flex flex-wrap justify-center items-center mt-[40px] after:absolute after:inline-block after:w-[90px] after">
+          <div className="w-full xl:w-1/2 lg:w-1/2 md:w-1/2">
+            <ul className="text-white font-alegreya text-[20px] ml-[50px] xl:ml-[25px] lg:ml-[25px] md:ml-[25px]">
               <li className="topics-li mb-[25px]">
                 <a
                   onClick={() => setTopicImage(Frequiences)}
@@ -72,16 +72,16 @@ const About = () => {
               </li>
             </ul>
           </div>
-          <div className="w-1/2">
+          <div className="hidden xl:block lg:block md:block w-1/2">
             <img
-              className="xl:w-[560px] lg:w-[560px] md:w-[390px] h-[290px] hidden xl:inline-block lg:inline-block md:inline-block object-cover"
+              className="xl:w-[560px] lg:w-[560px] md:w-[390px] h-[290px] object-cover"
               src={topicImage}
               alt="Topic Image"
             />
           </div>
 
           <img
-            className="absolute right-[-25px] bottom-[-25px]"
+            className="absolute right-[0] xl:right-[-25px] lg:right-[-25px] md:right-[-25px] bottom-[-25px]"
             src={YellowBorder}
             alt="Topic Image Border"
           />
