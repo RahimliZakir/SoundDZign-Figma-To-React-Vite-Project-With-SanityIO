@@ -8,7 +8,7 @@ const Blog = () => {
           Latest Posts
         </h2>
         <div className="mt-[40px] flex flex-wrap justify-between">
-          <div className="w-[30%] mb-[40px]">
+          <div className="xl:w-[30%] lg:w-[30%] md:w-[45%] mb-[40px]">
             <div className="relative bg-white rounded-[10px] hover:-translate-y-4 duration-500">
               <h6 className="absolute bg-white px-[16px] rounded-[10px] top-[8px] right-[8px] font-alegreya text-[13px] font-bold">
                 DAW
@@ -23,7 +23,7 @@ const Blog = () => {
               </p>
             </div>
           </div>
-          <div className="w-[30%] mb-[40px]">
+          <div className="xl:w-[30%] lg:w-[30%] md:w-[45%] mb-[40px]">
             <div className="relative bg-white rounded-[10px] hover:-translate-y-4 duration-500">
               <h6 className="absolute bg-white px-[16px] rounded-[10px] top-[8px] right-[8px] font-alegreya text-[13px] font-bold">
                 Mixing
@@ -38,7 +38,7 @@ const Blog = () => {
               </p>
             </div>
           </div>
-          <div className="w-[30%] mb-[40px]">
+          <div className="xl:w-[30%] lg:w-[30%] md:w-[100%] mb-[40px]">
             <div className="relative bg-white rounded-[10px] hover:-translate-y-4 duration-500">
               <h6 className="absolute bg-white px-[16px] rounded-[10px] top-[8px] right-[8px] font-alegreya text-[13px] font-bold">
                 Vox

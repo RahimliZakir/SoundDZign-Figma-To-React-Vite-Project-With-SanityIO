@@ -11,8 +11,8 @@ const Testimonials = () => {
         <h2 className="font-inter relative text-white text-[40px] font-black after:content-[''] after:bg-red after:inline-block after:absolute after:w-[80px] after:h-[4px] after:left-0 after:bottom-[-2.5px]">
           What our students say?
         </h2>
-        <div className="mt-[50px] flex flex-wrap justify-between">
-          <div className="card w-[27.5%]">
+        <div className="mt-[50px] flex flex-wrap justify-between xl:flex-row lg:flex-row md:flex-col">
+          <div className="card w-[27.5%] xl:mb-0 lg:mb-0 md:mb-[60px]">
             <img
               className="w-[100px] h-[100px] object-cover rounded-[10px]"
               src={TestimonialFirst}
@@ -25,7 +25,7 @@ const Testimonials = () => {
               This is a great course. I got to learn a lot.
             </p>
           </div>
-          <div className="card w-[27.5%]">
+          <div className="card xl:mb-0 lg:mb-0 md:mb-[60px]">
             <img
               className="w-[100px] h-[100px] object-cover rounded-[10px]"
               src={TestimonialSecond}
@@ -39,7 +39,7 @@ const Testimonials = () => {
               Thanks :)
             </p>
           </div>
-          <div className="w-[27.5%] mb-[40px]">
+          <div className="w-[27.5%] xl:mb-0 lg:mb-0 md:mb-[60px]">
             <img
               className="w-[100px] h-[100px] object-cover rounded-[10px]"
               src={TestimonialThird}
