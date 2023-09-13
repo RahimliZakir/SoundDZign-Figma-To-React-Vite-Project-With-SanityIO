@@ -20,12 +20,6 @@ const Footer = () => {
                 <img src={InstagramIcon} alt="Instagram Icon" />
               </a>
             </div>
-            <p
-              className="text-white font-alegreya"
-              style={{ textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}
-            >
-              This website is designed by GTCoding Ⓒ 2023
-            </p>
           </div>
           <div>
             <h4 className="font-alegreya text-pink text-[18px] font-bold">
@@ -53,6 +47,14 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+        </div>
+        <div>
+          <p
+            className="text-white font-alegreya"
+            style={{ textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}
+          >
+            This website is designed by GTCoding Ⓒ 2023
+          </p>
         </div>
       </div>
     </footer>
