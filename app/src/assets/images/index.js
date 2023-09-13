@@ -1,3 +1,8 @@
+//* Nav
+import MenuBar from "./nav/menu-bar.svg";
+import MenuBarActive from "./nav/menu-bar-active.svg";
+//* Nav
+
 //* Intro
 import HeaderBanner from "./intro/Rectangle8.png";
 //* Intro
@@ -37,6 +42,8 @@ import InstagramIcon from "./footer/insta-icon.svg";
 //* Footer
 
 export {
+  MenuBar,
+  MenuBarActive,
   HeaderBanner,
   Frequiences,
   UsingDaw,
