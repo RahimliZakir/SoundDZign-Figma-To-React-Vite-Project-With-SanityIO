@@ -73,7 +73,11 @@ const Topics = () => {
             </ul>
           </div>
           <div className="w-1/2">
-            <img className="object-cover" src={topicImage} alt="Topic Image" />
+            <img
+              className="xl:w-[560px] lg:w-[560px] md:w-[390px] h-[290px] object-cover"
+              src={topicImage}
+              alt="Topic Image"
+            />
           </div>
 
           <img
