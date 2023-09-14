@@ -20,10 +20,10 @@ const Blog = () => {
           Latest Posts
         </h2>
         <div className="mt-[40px] flex flex-wrap flex-col xl:flex-row lg:flex-row md:flex-row justify-between">
-          {blog.map((item, index) => {
+          {blog.map((item) => {
             return (
               <div
-                key={index}
+                key={item._id}
                 className="xl:w-[30%] lg:w-[30%] md:w-[45%] mb-[40px]"
               >
                 <div className="relative bg-white rounded-[10px] hover:-translate-y-4 duration-500">

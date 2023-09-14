@@ -24,10 +24,10 @@ const Testimonials = () => {
           What our students say?
         </h2>
         <div className="mt-[50px] flex flex-wrap items-center xl:items-start lg:items-start md:items-start justify-between flex-col xl:flex-row lg:flex-row">
-          {testimonials.map((item, index) => {
+          {testimonials.map((item) => {
             return (
               <div
-                key={index}
+                key={item._id}
                 className="card flex flex-col md:flex-row items-center md:items-start xl:block lg:block w-full xl:w-[27.5%] lg:w-[27.5%] mb-[60px] xl:mb-0 lg:mb-0 md:mb-[60px]"
               >
                 <img
