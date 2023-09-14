@@ -10,6 +10,7 @@ export default {
         pink: "#ff6864",
         yellow: "#ffca28",
         white: "#ffffff",
+        navBlack: "#212121",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
