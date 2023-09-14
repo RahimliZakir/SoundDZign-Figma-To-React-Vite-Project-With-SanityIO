@@ -53,7 +53,7 @@ const Footer = () => {
             className="text-white font-alegreya"
             style={{ textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}
           >
-            This website is designed by GTCoding Ⓒ 2023
+            Copyright ©2023 . All rights reserved
           </p>
         </div>
       </div>
