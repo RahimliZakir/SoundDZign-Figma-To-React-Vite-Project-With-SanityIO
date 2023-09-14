@@ -12,7 +12,7 @@ const Nav = () => {
           <div className="flex flex-wrap items-center justify-between xl:justify-start lg:justify-start md:justify-start px-10 h-[80px] bg-black/50 rounded-b-[10px] backdrop-blur-[20px]">
             <div className="xl:w-1/2 lg:w-1/2 md:w-1/4">
               <h6 className="font-inter text-white font-extrabold">
-                Soun<span className="text-red">DZign</span>
+                Sound<span className="text-red">DZign</span>
               </h6>
             </div>
             <div className="hidden xl:block lg:block md:block xl:w-1/2 lg:w-1/2 md:w-3/4">
