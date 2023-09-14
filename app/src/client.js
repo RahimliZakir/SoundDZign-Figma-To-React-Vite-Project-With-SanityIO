@@ -2,11 +2,10 @@ import { createClient } from "@sanity/client";
 import imageUrlBuilder from "@sanity/image-url";
 
 export const client = createClient({
-  projectId: "cteeg2m7",
+  projectId: import.meta.env.VITE_SANITY_PROJECT_ID,
   dataset: "production",
   apiVersion: "2023-09-14",
-  token:
-    "skWEklUV1qoKpU3JJJMgTaRQwV6Rvqm5Gr0YbHmiNZSKN5phny2fiEkeuztbLwzwHPRpUU1plhKbmMBz33xprjd9YfXcUR74reiFiWWdjciBy0sNGDrhqHdw4TC2CwakM5O5cD9IvtihxprME329gIdEMcNSmWzanyaQ9YAxlN6ni0BcgKVv",
+  token: import.meta.env.VITE_SANITY_TOKEN,
   useCdn: true,
 });
 
@@ -15,3 +14,5 @@ const builder = imageUrlBuilder(client);
 export const urlFor = (source) => {
   return builder.image(source);
 };
+
+console.log(import.meta.env.SANITY_PROJECT_ID);
