@@ -3,7 +3,7 @@ import { HeaderBanner } from "../assets/images";
 const Intro = () => {
   return (
     <section
-      id="header"
+      id="intro"
       style={{ "--header-banner": `url(${HeaderBanner})` }}
       className={`bg-[image:var(--header-banner)] bg-top bg-cover h-[815px] xl:h-screen lg:h-screen md:h-[980px] sm:h-[815px]`}
     >
